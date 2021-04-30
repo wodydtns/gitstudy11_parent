@@ -43,7 +43,13 @@
   -  git log : 최신 커밋 기록부터 내림차순으로 정렬
 
 4. 두 번째 커밋
-
+ 4.1 수정된 파일 되돌리기 : git checkout -- 수정파일이름 (이전 커밋으로 되돌리는 cmd)
+    - 수정 파일을 되돌리면 이전 커밋 이후의 작업한 수정 내역은 모두 삭제
+ 4.2  두 번째 커밋
+    - git commit -am "commit message" => git add와 commit 동시 / 기존에 추적중인 파일만 가능
+ 4.3 세 번째 커밋
+   - git message없이 커밋하기
+    -> git commit --allow-empty-message -m "" 
 
 
    
