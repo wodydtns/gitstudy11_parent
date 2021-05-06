@@ -1,0 +1,35 @@
+* 깃 초기화 : git init 경로명
+* 깃 상태 확인 : git status
+* 깃 저장소 복제 : git clone 원격저장소URL 새폴더이름
+* VS Code 실행 : code 파일이름
+* 파일 등록과 커밋 
+* 파일 등록, 커밋, 커밋 메시지 작성을 따로 진행
+  1. 파일을 스테이지에 등록 : git add 파일이름
+  2. 커밋 : git commit -m "메시지 내용"
+* 파일 등록, 커밋을 동시에 진행
+  1. git commit -am "커밋 메시지 작성"
+* 로그 확인 : git log
+* 커밋 비교 : git diff
+* 원격 저장소 별칭 확인 : git remote
+* 원격 저장소 별칭과 URL 확인 : git remote -v
+* 원격 저장소와 연결 : git remote add 원격저장소별칭 원격저장소URL
+* 원격 서버 삭제 : git remote rm 원격저장소별칭
+* 커밋 가져오기 : git pull 또는 git pull
+* 커밋 전송하기 : git push 원격저장소별칭 브랜치이름
+* 현재 브랜치 확인 : git branch
+* 브랜치 생성 : git branch 브랜치이름
+* 브랜치 이동 : git checkout 브랜치이름
+* 스태시 저장 : git stash
+* 스태시 읽기 : git stash pop
+* 브랜치 병합 : git merge 브랜치이름
+* 리베이스 병합 : git rebase 브랜치이름
+* 리셋 : git reset 옵션 커밋ID
+* 리버트 취소 커밋 : git revert 커밋위치
+* 태그 관리 : git tag
+* 태그 전송 : git push 원격저장소별칭 태그이름
+* 서브모듈로 연결 : git submodule add 원격저장소URL 폴더이름
+  
+
+
+ 
+                 
