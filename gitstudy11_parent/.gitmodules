@@ -1,0 +1,3 @@
+[submodule "gitstudy11_parent/child"]
+	path = gitstudy11_parent/child
+	url = https://github.com/wodydtns/gitstudy11_child.git
